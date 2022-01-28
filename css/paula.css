@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(23, 11, 66);
+}
+
+.navbar{
+    width:85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar h1 a {
+    font-size: 40px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar h1 a:visited {
+    font-size: 40px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar ul li {
+    list-style: none;
+    display:inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration:none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #ffffff;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align:center;
+    color: #fff;
+}
+
+.leftImg {
+    float: left;
+    transform: translateX(90px);
+    margin-top: 50px;
+    margin-left: 200px;
+    position: relative;
+
+}
+
+.leftText {
+    display: inline-block; 
+    text-align: left;
+    margin-left: 0px;
+
+}
+.content a{
+    color: rgb(59, 34, 100);
+}
+
+.content h1{
+    font-size: 18px;
+}
+
+.content p, ul{
+    margin-bottom: 10px;
+}
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
